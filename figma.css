@@ -1,0 +1,38 @@
+body{
+    background-color: #611ECB;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tr{
+    border-bottom: 0.5px solid #000;
+}
+tr:last-child{
+    border-bottom: none;
+}
+.table-container{
+    width: 80%;
+    background-color: white;
+    color: #000;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    text-align: left;
+    padding: 15px;
+}
+
+th{
+    background-color: #f0f0f0;
+}
